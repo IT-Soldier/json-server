@@ -22,6 +22,8 @@
 
 - GET 请求指定ID的数据
 	+ localhost:3000/users/1
+	+ localhost:3000/users/brands?name_like=xxx
+brands是json数据的属性名,值为数组,_like为模糊查询,只要包含xxx就可以取到相应的数组
 
 - GET 请求指定字段值的数据
 	+ localhost:3000/users?name=李四&age=15
